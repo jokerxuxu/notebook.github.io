@@ -1,0 +1,9 @@
+
+##网站名称##
+site_name: joker's notbook
+## navigation ##
+nav:
+  - Home: index.md
+  - About: about.md
+## theme ##
+theme: readthedocs
