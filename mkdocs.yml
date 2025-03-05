@@ -1,9 +1,46 @@
 
 ##网站名称##
-site_name: joker's notbook
+site_name: joker's notebook
 ## navigation ##
 nav:
   - Home: index.md
-  - About: about.md
+  - About:  
+      - 材料力学:
+        - 1.Introduction: 材料力学1.md
+  
+
+
 ## theme ##
-theme: readthedocs
+theme: 
+  name: material
+
+## extenxions ##
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+########## 列表  #######
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+#######
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+
+
+## extra_javascript ##
+extra_javascript:
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+## extra_css##
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
+
+
+## plugins ##
+  ##- offline ###离线使用###
